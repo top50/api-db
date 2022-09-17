@@ -1,0 +1,73 @@
+body {
+  margin: 0em;
+  background-color: rgb(12, 12, 29);
+}
+
+.heroe {
+  min-width: 19em;
+  padding-top: 0.1em;
+  padding-left: 0em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin: 0.6em;
+  word-wrap: break-word;
+}
+#root {
+  padding: 8em;
+}
+.row {
+  margin: 0em;
+  min-width: 20em;
+}
+section {
+  margin: 0em;
+}
+.card {
+  min-width: 16em;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(66, 62, 62);
+  margin: 1em;
+  border-radius: 6px;
+  color: aliceblue;
+  border: 0 !important;
+  box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 5px black;
+  transform: scale(var(--escala, 1));
+  transition: transform 0.25s;
+}
+
+.card:hover {
+  --escala: 1.1;
+  cursor: pointer;
+  background-color: rgb(31, 32, 34);
+  box-shadow: 2px 2px 2px 6px rgba(43, 9, 122, 0.5);
+  text-shadow: 2px 4px 5px (43, 9, 122, 0.5);
+}
+
+
+.card-text {
+  text-align: justify;
+  font-size: 0.6em;
+  font-weight: bold;
+  
+
+}
+
+.card-text:hover{
+  font-size: 0.8em;
+}
+.card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+
+.heroeimg {
+  margin: 1em;
+  border-radius: 150px;
+  padding: 0.2em;
+}
+
